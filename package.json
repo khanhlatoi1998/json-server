@@ -1,0 +1,26 @@
+{
+  "name": "json-sever",
+  "version": "1.0.0",
+  "description": "demo json-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run generate-data && nodemon index.js",
+    "start": "npm run generate-data && node index.js",
+    "generate-data": "node generate-data.js"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "Khanh",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "query-string": "^7.1.1"
+  },
+  "devDependencies": {
+    "casual": "^1.6.2",
+    "faker": "^6.6.6",
+    "nodemon": "^2.0.19"
+  }
+}
