@@ -15,11 +15,11 @@
   "author": "Khanh",
   "license": "MIT",
   "dependencies": {
+    "casual": "^1.6.2",
     "json-server": "^0.17.0",
     "query-string": "^7.1.1"
   },
   "devDependencies": {
-    "casual": "^1.6.2",
     "faker": "^6.6.6",
     "nodemon": "^2.0.19"
   }
